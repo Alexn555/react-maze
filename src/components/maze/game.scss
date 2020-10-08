@@ -1,0 +1,59 @@
+@import '../../styles/common.scss';
+
+$base-color: #f6f6f6;
+$pagination-color: lightblue;
+$wall-color: #8A5611;
+
+.game {
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid blue;
+}
+
+.score {
+	position: fixed;
+	top: 50px;
+	right: 50px;
+}
+
+.wrapper {
+    display: grid;
+    grid-auto-rows: 90px;
+}
+
+%baseItem {
+	width: 70px;
+	height: 70px;
+	color: transparent;
+}
+
+.invalidMove {
+	@extend .message;
+	background: red;
+	border-radius: 5px;
+	border: 1px solid brown;
+	color: white;
+}
+
+.box {
+	@extend %baseItem;
+	border: 1px solid blue;
+}
+
+.wall {
+	@extend %baseItem;
+	border: 1px solid grey;
+	background: $wall-color;
+}
+
+.last-box {
+	@extend %baseItem;
+	background: grey;
+}
+
+.player {
+	@extend %baseItem;
+	background-image: url('../../assets/hare.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}

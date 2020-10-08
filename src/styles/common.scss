@@ -1,0 +1,24 @@
+.message {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  background: red;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.errorMessage {
+  @extend .message;
+  color: white;
+}
+
+.tipsMessage {
+  @extend .message;
+  background: grey;
+  color: white;
+  cursor: pointer;
+}

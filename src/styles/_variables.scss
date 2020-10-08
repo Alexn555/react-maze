@@ -1,0 +1,28 @@
+$font-family-general: 'Work Sans', sans-serif;
+$font-family-titles: 'Work Sans', sans-serif;
+
+$text-primary: #273348;
+$text-danger: #d92008;
+$main-theme: #37eea3;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$offset-top: 10px;
+
+$white: #fff;
+$black: #000;
+
+$transition-default: 0.2s ease-in-out;
+
+// @todo use it somehwere for media
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+

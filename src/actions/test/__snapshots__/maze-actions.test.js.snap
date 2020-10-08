@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`quiz async actions should send FETCH_MAP action and get correct snapshot 1`] = `
+Array [
+  Object {
+    "type": "FETCH_MAP",
+  },
+]
+`;
