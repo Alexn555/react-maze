@@ -3,6 +3,7 @@
 $base-color: #f6f6f6;
 $pagination-color: lightblue;
 $wall-color: #8A5611;
+$last-item: #36BC10;
 
 .game {
 	padding: 10px;
@@ -48,7 +49,7 @@ $wall-color: #8A5611;
 
 .last-box {
 	@extend %baseItem;
-	background: grey;
+	background: $last-item;
 }
 
 .player {
